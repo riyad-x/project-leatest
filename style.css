@@ -20,7 +20,7 @@ a {
 body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
-  background-image: url("https://cdn.britannica.com/36/241736-050-D40F2AEC/Abstract-cryptocurrency-with-gold-bitcoin-background.jpg");
+  background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/cryptocurrency_trends.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,6 +42,59 @@ nav {
   justify-content: space-between;
   position: relative;
 }
+.hero-btn2{
+  display: flex;
+  position: absolute;
+  right: 900px;
+  bottom: 255px;
+
+  gap: 20px;
+  display: inline-block;
+  /* position: absolute; */
+  width: 200px;
+  /* right: 50px; */
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 16px;
+  background-color: var(--secondary-color);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.hero-btn2:hover {
+  background-color: var(--primary-color);
+}
+.hero-btns {
+  display: flex;
+  gap: 20px;
+
+}
+
+.hero-btn {
+  display: inline-block;
+  /* position: absolute; */
+  width: 200px;
+  /* right: 50px; */
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 16px;
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: var(--primary-color);
+}
+
 
 .nav__logo a {
   font-size: 24px;
@@ -115,7 +168,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: var(--extra-light);
+
   text-align: center;
 }
 
@@ -123,16 +176,16 @@ nav {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.5;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  color: var(--primary-color);
+  text-shadow: 2px 2px 10px rgb(0, 0, 0);
+  color: white;
   margin-bottom: 20px;
 }
 
 .hero h1 {
   font-size: 20px;
   font-weight: 400;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  color: var(--secondary-color);
+  text-shadow: 2px 2px 10px rgb(0, 0, 0);
+  color: white;
   margin-bottom: 20px;
 }
 
